@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.square {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #E6E6FA; /* Lavender */
+}
+
+/* When hovering on container, change all */
+.container:hover .square {
+    background-color: #6F4E37;
+}
+
+/* But keep hovered square lavender */
+.square:hover {
+    background-color: #E6E6FA;
+}
